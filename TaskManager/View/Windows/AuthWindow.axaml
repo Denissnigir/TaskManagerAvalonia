@@ -1,0 +1,45 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TaskManager.View.Windows.AuthWindow"
+        Title="AuthWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <TextBlock Text="ПЛАНИРОВЩИК ЗАДАЧ"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="38"
+                       FontFamily="Roboto"
+                       FontWeight="Bold"
+                       Foreground="Blue"/>
+        </Grid>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Grid.Row="1">
+            <TextBox Width="250"
+                     Watermark="Login"
+                     Name="LoginTb"
+                     Margin="0, 10, 0, 0"/>
+            <TextBox Width="250"
+                     Watermark="Passowrd"
+                     Margin="0, 10, 0, 0"
+                     Name="PasswordTb"/>
+            <Button Content="Войти"
+                    Width="250"
+                    Margin="0, 10, 0, 0"
+                    Click="Auth"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Background="Blue"
+                    Foreground="White"/>
+        </StackPanel>
+    </Grid>
+    
+</Window>

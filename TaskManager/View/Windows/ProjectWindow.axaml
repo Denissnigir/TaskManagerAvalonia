@@ -1,0 +1,70 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:model="clr-namespace:TaskManager.Model"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TaskManager.View.Windows.ProjectWindow"
+        Title="ProjectWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid>
+            <Button Content="Выйти из аккаунта"
+                    Width="200"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Background="Blue"
+                    Foreground="White"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Margin="10, 0, 0, 0"/>       
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Right"
+                        Margin="0, 0, 10, 0">
+                <TextBox Watermark="Название проекта"
+                         Width="150"
+                         Name="ProjectTb"/>
+                <Button Content="Создать проект"
+                        Width="150"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Background="Blue"
+                        Foreground="White"
+                        Margin="10, 0, 0, 0"
+                        Click="AddProject"/>  
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <ListBox Name="ProjectLb">
+                <ListBox.ItemTemplate>
+                    <DataTemplate DataType="model:Project">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Left"
+                                        Margin="10, 0, 0, 0">
+                                <TextBlock Text="{Binding Name}"
+                                           VerticalAlignment="Center"
+                                           FontSize="24"/>
+                                <Button Content="Открыть"
+                                        Margin="10, 0, 0, 0"
+                                        Click="ToTasks"
+                                        HorizontalContentAlignment="Center"
+                                        VerticalContentAlignment="Center"
+                                        Background="Blue"
+                                        Foreground="White"
+                                        Width="150"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/bin/Debug/net7.0/TaskManager
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/bin/Debug/net7.0/TaskManager.dll
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/bin/Debug/net7.0/TaskManager.pdb
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.csproj.AssemblyReference.cache
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.AssemblyInfoInputs.cache
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.AssemblyInfo.cs
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.csproj.CoreCompileInputs.cache
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.dll
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/refint/TaskManager.dll
+/home/astra/Desktops/Desktop1/Projects/TaskManager/TaskManager/obj/Debug/net7.0/TaskManager.pdb

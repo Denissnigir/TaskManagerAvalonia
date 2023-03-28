@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="TaskManager/App.axaml" value="TaskManager/TaskManager.csproj" />
+        <entry key="TaskManager/MainWindow.axaml" value="TaskManager/TaskManager.csproj" />
+        <entry key="TaskManager/View/Windows/AuthWindow.axaml" value="TaskManager/TaskManager.csproj" />
+        <entry key="TaskManager/View/Windows/ProjectWindow.axaml" value="TaskManager/TaskManager.csproj" />
+        <entry key="TaskManager/View/Windows/TaskWindow.axaml" value="TaskManager/TaskManager.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
